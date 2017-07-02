@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>nTulip</id>
+        <title>nTulip</title>
+        <version>$version$</version>
+        <authors>Prakash Sewda</authors>
+        <owners>Prakash Sewda</owners>
+        <licenseUrl>https://github.com/license.txt</licenseUrl>
+        <projectUrl>https://github.com/psewda/ntulip</projectUrl>
+        <iconUrl>https://github.com/psewda/ntulip/icon.gif</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <summary>nTuple is a fluent assert framework for .NET developers. It primarily focuses on simple and smart assert syntax.</summary>
+        <description>nTuple is very simple but powerful assert framework. It features many built-in assert operations on string, datetime, boolean, collection, object etc. It also provides extensibility with support of custom assert operations.</description>
+        <language>en-US</language>
+        <tags>ntulip tulip assert fluent assert test testing</tags>
+        <copyright>Copyright (c) 2017 Prakash Sewda</copyright>
+        <dependencies>
+            <group targetFramework="net40" />
+            <group targetFramework="net45" />
+            <group targetFramework="net46" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\$configuration$\net40\Tulip.Framework.dll" target="lib\net40" />
+        <file src="bin\$configuration$\net40\Tulip.Framework.xml" target="lib\net40" />
+        <file src="bin\$configuration$\net45\Tulip.Framework.dll" target="lib\net45" />
+        <file src="bin\$configuration$\net45\Tulip.Framework.xml" target="lib\net45" />
+        <file src="bin\$configuration$\net46\Tulip.Framework.dll" target="lib\net46" />
+        <file src="bin\$configuration$\net46\Tulip.Framework.xml" target="lib\net46" />
+    </files>
+</package>

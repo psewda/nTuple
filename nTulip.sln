@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET40", "NET40", "{33FEF7AC-3D01-4CE2-9189-1AE38BC3CD2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulip.Framework-Net40", "src\Tulip.Framework\Tulip.Framework-Net40.csproj", "{7E054F40-9665-4FF0-9A35-E87F6A22B43D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulip.Framework.Test-Net40", "src\Tulip.Framework.Test\Tulip.Framework.Test-Net40.csproj", "{60614976-18E1-4495-9695-367493A734EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET45", "NET45", "{D936B4FD-6DAE-4EF0-A239-2895264D3ECF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulip.Framework-Net45", "src\Tulip.Framework\Tulip.Framework-Net45.csproj", "{3151D817-9659-4890-8E07-1977E11F7F2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulip.Framework.Test-Net45", "src\Tulip.Framework.Test\Tulip.Framework.Test-Net45.csproj", "{4AEE85C5-3A08-4D36-B9C2-6EC380594C1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET46", "NET46", "{E99FBD31-3D5D-4E60-A41E-20E14486EFA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulip.Framework-Net46", "src\Tulip.Framework\Tulip.Framework-Net46.csproj", "{FD8E6777-684D-43D3-8756-A39671404DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tulip.Framework.Test-Net46", "src\Tulip.Framework.Test\Tulip.Framework.Test-Net46.csproj", "{0FF0DB75-D4E5-4E73-95F0-ADA34C321C78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{0B79AC41-0EC6-4740-8565-528331E4003E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{01476387-FBC3-4C31-9605-24E457E49C59}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		ntulip.nuspec = ntulip.nuspec
+		nuget-install.cmd = nuget-install.cmd
+		nuget-pack.cmd = nuget-pack.cmd
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E054F40-9665-4FF0-9A35-E87F6A22B43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E054F40-9665-4FF0-9A35-E87F6A22B43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E054F40-9665-4FF0-9A35-E87F6A22B43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E054F40-9665-4FF0-9A35-E87F6A22B43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60614976-18E1-4495-9695-367493A734EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60614976-18E1-4495-9695-367493A734EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60614976-18E1-4495-9695-367493A734EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60614976-18E1-4495-9695-367493A734EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3151D817-9659-4890-8E07-1977E11F7F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3151D817-9659-4890-8E07-1977E11F7F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3151D817-9659-4890-8E07-1977E11F7F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3151D817-9659-4890-8E07-1977E11F7F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AEE85C5-3A08-4D36-B9C2-6EC380594C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AEE85C5-3A08-4D36-B9C2-6EC380594C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AEE85C5-3A08-4D36-B9C2-6EC380594C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AEE85C5-3A08-4D36-B9C2-6EC380594C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8E6777-684D-43D3-8756-A39671404DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8E6777-684D-43D3-8756-A39671404DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8E6777-684D-43D3-8756-A39671404DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8E6777-684D-43D3-8756-A39671404DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF0DB75-D4E5-4E73-95F0-ADA34C321C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF0DB75-D4E5-4E73-95F0-ADA34C321C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF0DB75-D4E5-4E73-95F0-ADA34C321C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF0DB75-D4E5-4E73-95F0-ADA34C321C78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33FEF7AC-3D01-4CE2-9189-1AE38BC3CD2F} = {0B79AC41-0EC6-4740-8565-528331E4003E}
+		{7E054F40-9665-4FF0-9A35-E87F6A22B43D} = {33FEF7AC-3D01-4CE2-9189-1AE38BC3CD2F}
+		{60614976-18E1-4495-9695-367493A734EB} = {33FEF7AC-3D01-4CE2-9189-1AE38BC3CD2F}
+		{D936B4FD-6DAE-4EF0-A239-2895264D3ECF} = {0B79AC41-0EC6-4740-8565-528331E4003E}
+		{3151D817-9659-4890-8E07-1977E11F7F2A} = {D936B4FD-6DAE-4EF0-A239-2895264D3ECF}
+		{4AEE85C5-3A08-4D36-B9C2-6EC380594C1C} = {D936B4FD-6DAE-4EF0-A239-2895264D3ECF}
+		{E99FBD31-3D5D-4E60-A41E-20E14486EFA3} = {0B79AC41-0EC6-4740-8565-528331E4003E}
+		{FD8E6777-684D-43D3-8756-A39671404DAA} = {E99FBD31-3D5D-4E60-A41E-20E14486EFA3}
+		{0FF0DB75-D4E5-4E73-95F0-ADA34C321C78} = {E99FBD31-3D5D-4E60-A41E-20E14486EFA3}
+	EndGlobalSection
+EndGlobal
