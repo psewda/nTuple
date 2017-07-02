@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Tulip.Framework.Test</RootNamespace>
-    <AssemblyName>Tulip.Framework.Test</AssemblyName>
+    <AssemblyName>Tulip.Framework.Test.Net40</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IntermediateOutputPath>obj\$(Configuration)\net40\</IntermediateOutputPath>
